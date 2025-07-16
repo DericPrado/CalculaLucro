@@ -1,1 +1,63 @@
-.vscode
+# Build results
+**/bin/
+**/obj/
+
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# Caso use o pacote restaurado fora do .csproj
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET files
+wwwroot/
+
+# Logs
+*.log
+
+# Rider
+.idea/
+
+# Templated files
+*.Template.config
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# DotCover
+*.dotCover
+
+# SonarQube
+.sonar/
+
+# Secret configs
+appsettings.Development.json
+secrets.json
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Others
+*.db
+*.sqlite
+*.bak
+*.mdb
+*.sql
+*.pdb
+*.cache
